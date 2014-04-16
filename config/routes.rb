@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   root to: 'static_pages#home'
   get 'about' => 'static_pages#about'
+  get 'committees' => 'static_pages#committees'
+  get 'contact' => 'static_pages#contact'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
